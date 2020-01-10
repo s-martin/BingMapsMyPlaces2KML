@@ -10,12 +10,12 @@ chrome_options = Options()
 chrome_options.add_argument("--disable-extensions")
 chrome_options.add_argument("--start-maximized")
 # set a profile which is used every time to keep login data
-chrome_options.add_argument("user-data-dir=./chromeprofile");
+chrome_options.add_argument("user-data-dir=./chromeprofile")
 
 browser = webdriver.Chrome(chrome_options=chrome_options)
 browser.get('https://www.bing.com/maps/myplaces')
 
-kml=simplekml.Kml()
+kml = simplekml.Kml()
 
 n = 0
 g = 0
@@ -36,9 +36,9 @@ for element in locations:
     print(element.text)
     print('----')
 
-print('Parsed ', n, 'entries, ', g , ' with geo coords')
+print('Parsed ', n, 'entries, ', g, ' with geo coords')
 
 kml.save('locations.kml')
-print('Saved ', g , ' entries to locations.kml')
+print('Saved ', g, ' entries to locations.kml')
 
 browser.quit()
