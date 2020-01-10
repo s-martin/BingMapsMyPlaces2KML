@@ -2,3 +2,4 @@ chromeprofile
 /debug.log
 /locations.kml
 .vscode
+chromedriver.exe
