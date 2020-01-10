@@ -22,7 +22,8 @@ g = 0
 
 locations = browser.find_elements_by_class_name('bm_favoritesListItem')
 
-# check, if run for the first time and no login data (and therefor no locations available)
+# check, if run for the first time and no login data
+# and therefor no locations available
 if len(locations) == 0:
     print('Please login to Bing/Microsoft in the opened Chrome window.')
     response = input("Please type 'OK', if you have logged in successfully: ")
@@ -33,7 +34,7 @@ if len(locations) == 0:
 
 locations = browser.find_elements_by_class_name('bm_favoritesListItem')
 if len(locations) == 0:
-    print('Could not find any locations')
+    print('Could not find any locations. Exiting')
     browser.quit()
     exit()
 
