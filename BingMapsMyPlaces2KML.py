@@ -15,11 +15,6 @@ chrome_options.add_argument("user-data-dir=./chromeprofile")
 browser = webdriver.Chrome(options=chrome_options)
 browser.get('https://www.bing.com/maps/myplaces')
 
-kml = simplekml.Kml()
-
-n = 0
-g = 0
-
 locations = browser.find_elements_by_class_name('bm_favoritesListItem')
 
 # check, if run for the first time and no login data
@@ -39,6 +34,11 @@ if len(locations) == 0:
     exit()
 
 print('Running conversion...')
+
+kml = simplekml.Kml()
+
+n = 0
+g = 0
 
 for element in locations:
     n = n + 1
