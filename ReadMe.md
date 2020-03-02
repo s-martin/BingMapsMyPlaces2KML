@@ -5,9 +5,7 @@ This script scraps *My Places* from [Bing Maps](www.bing.com/maps) and converts 
 ##  Prerequisites ##
 1. Works with Python 3.x
 2. Install selenium and simplekml
-   > pip install selenium
-   
-   > pip install simplekml
+   > sudo pip install -r requirements.txt
 3. Download chromedriver from https://chromedriver.chromium.org/downloads, extract and add location of chromedriver binary to `PATH`
 
 ## Usage ##
