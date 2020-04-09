@@ -1,0 +1,35 @@
+<div class="bm_favoritesListItem" data-entityid="49.27911_-123.12384">
+	<a class="favoriteEntry" data-tag="favoriteEntry" data-task="{&quot;type&quot;:&quot;LocalDetailsTask&quot;,&quot;activateOptions&quot;:{&quot;parentId&quot;:&quot;CollectionsTask$$1&quot;},&quot;state&quot;:{&quot;entryPoint&quot;:&quot;Collections&quot;,&quot;flippingCard&quot;:true,&quot;descriptionList&quot;:[&quot;1025 Granville St, Vancouver V6Z, Kanada&quot;],&quot;taskTitle&quot;:&quot;Hi - Vancouver Central&quot;,&quot;originalName&quot;:&quot;Hi - Vancouver Central&quot;,&quot;query&quot;:&quot;49.279110, -123.123840&quot;,&quot;savedEntityId&quot;:&quot;<http://platform.bing.com/persons/me/place.49.27911_-123.12384>&quot;}}" data-entityid="49.27911_-123.12384" href="#">
+			<div class="favoriteContents">
+				<div class="favoriteImageContainer">
+					<div class="favoriteImagePlaceholder"/>
+					<img class="favoriteImage" alt="" src="" data-bm="35" style="display: none;">
+					</div>
+					<div class="favoriteDetails">
+						<div class="favoriteTitle" data-tag="favoriteTitleContainer">Hi - Vancouver Central</div>
+						<div class="favoriteOriginalName" data-tag="favoriteOriginalNameContainer" style="display: none;">Hi - Vancouver Central</div>
+						<div class="favoriteAddress" data-tag="favoriteAddressContainer" style="">1025 Granville St, Vancouver V6Z, Kanada</div>
+						<div class="favoriteDescription" data-tag="favoriteDescriptionContainer" style="display: none;">1025 Granville St, Vancouver V6Z, Kanada</div>
+					</div>
+					<a class="bm_deleteItem" data-entityid="49.27911_-123.12384" data-tag="deleteItem" title="Diesen Ort aus der temporären Sammlung entfernen" href="#"/>
+					<a class="bm_contextMenuButton" data-entityid="49.27911_-123.12384" data-tag="contextMenuButton" title="Weitere Aktionen für diese Entität" href="#"/>
+				</div>
+				<div class="cardDeleteConfirmationRow" data-tag="deleteConfirmationRow" data-entityid="49.27911_-123.12384">
+					<div class="deleteConfirmationText">Möchten Sie diesen Ort wirklich löschen?</div>
+					<span class="cardDeleteConfirmationButtonContainer">
+						<a class="commonButtonControl cancelDeleteButton" data-tag="cancelDelete" href="#">Abbrechen</a>
+						<a class="commonButtonControl highlighted confirmDeleteButton" data-tag="confirmDelete" href="#">Löschen</a>
+					</span>
+				</div>
+				<div class="editEntryRow" data-tag="editEntryRow" data-entityid="49.27911_-123.12384">
+					<div class="editNicknameText">Spitzname</div>
+					<input type="text" class="nameEditBox" data-tag="nameEditBox" maxlength="100">
+						<div class="editDescriptionText">Beschreibung</div>
+						<textarea class="descriptionEditBox" data-tag="descriptionEditBox" contenteditable="true" rows="4" maxlength="1000" value=""/>
+						<span class="editRowButtonContainer">
+							<a class="cancelEditButton commonButtonControl" data-tag="cancelEdit" href="#">Abbrechen</a>
+							<a class="confirmEditButton commonButtonControl" data-tag="confirmEdit" href="#">Speichern</a>
+						</span>
+					</div>
+				</a>
+			</div>
