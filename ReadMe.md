@@ -1,8 +1,8 @@
-# Convert my places from Bing Maps to Google's KML format #
+# Convert My Places from Bing Maps to Google's KML format #
 
 [![Python Checks](https://github.com/s-martin/BingMapsMyPlaces2KML/actions/workflows/pythonapp.yml/badge.svg)](https://github.com/s-martin/BingMapsMyPlaces2KML/actions/workflows/pythonapp.yml)
 
-This script scraps *My Places* from [Bing Maps](www.bing.com/maps) and converts them to Google's KML format
+This script scraps *My Places* from [Bing Maps](https://www.bing.com/maps) and converts them to Google's KML format
 
 ##  Prerequisites ##
 1. Works with Python 3.x
